@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js",
+    "start": "env-cmd node src/server.js",
     "dev": "env-cmd nodemon --ignore client.js src/server.js"
   },
   "author": "Sihoon Kim",
