@@ -6,12 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server.js",
-    "dev": "nodemon --ignore client.js src/server.js"
+    "dev": "env-cmd nodemon --ignore client.js src/server.js"
   },
   "author": "Sihoon Kim",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
+    "env-cmd": "^10.1.0",
     "express": "^4.17.1",
     "faker": "^5.1.0",
     "mongoose": "^5.10.15"
