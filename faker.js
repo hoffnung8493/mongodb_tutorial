@@ -48,6 +48,7 @@ generateFakeData = async (userCount, blogsPerUser, commentsPerUser) => {
   //       new Comment({
   //         content: faker.lorem.sentence(),
   //         user,
+  //         userFullName: user.fullName,
   //         blog: blogs[index]._id,
   //       })
   //     );
